@@ -11,7 +11,7 @@ import java.io.File;
 
 public class Main extends Application {
 
-    public final static String DERBY_URL = "jdbc:derby:" + System.getProperty("user.dir") + File.separator + "database";
+    public final static String DERBY_URL = "jdbc:derby:" + System.getProperty("user.dir") + File.separator + "database;create=true";
 
 
     @Override
